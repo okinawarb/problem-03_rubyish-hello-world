@@ -45,7 +45,7 @@ Problem 03: Rubyish 'Hello, world'
 ![How to push](https://dl.dropboxusercontent.com/u/2819285/howto-push.png)
 	
 ## 8. 2.で訪れたページを開き、先ほど書いた問題の解答を、オリジナルのリポジトリに送信（Pull Request）ボタンを押します。
-なお、2. で開いたページのURLは、こんな感じのURLです：`https://github.com/YOUR_NAME/REPOSITORY_NAME`
+なお、2. で開いたページのURLは、こんな感じのURLです：`https://github.com/アカウント名/リポジトリ名`
 
 ![How to Pull Request](https://dl.dropboxusercontent.com/u/2819285/howto-pr.png)
 	
