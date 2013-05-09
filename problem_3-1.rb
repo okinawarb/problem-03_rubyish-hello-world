@@ -15,3 +15,5 @@ Okinawarb.new.Foobar "ほげ"
 
 ### ここから下は、コメントインorコメントアウトするだけ！
 # Okinawarb.new.H.e.l.l.o.comma.space.w.o.r.l.d!.send("\n")
+
+
