@@ -41,7 +41,7 @@ Problem 03: Rubyish 'Hello, world'
 ## 6. 問題を解き終わったら、解答コードをリポジトリに保存（git commit）します。
 ![How to commit](https://dl.dropboxusercontent.com/u/2819285/howto-commit.png)
 	
-## 7. 解答コードを GitHub 上へアップロード（push）します。
+## 7. 解答コードを GitHub 上へアップロード（git push）します。
 ![How to push](https://dl.dropboxusercontent.com/u/2819285/howto-push.png)
 	
 ## 8. 2.で訪れたページを開き、先ほど書いた問題の解答を、オリジナルのリポジトリに送信（Pull Request）ボタンを押します。
