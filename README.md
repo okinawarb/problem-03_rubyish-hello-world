@@ -61,7 +61,7 @@ Problem 03: Rubyish 'Hello, world'
 次のRubyスクリプトが実行できるような、Okinawarb クラスを実装してみてください。
 
 ```
-Okinawarb.new.H.e.l.l.o.send(', ').w.o.r.l.d!.send("\n")
+Okinawarb.new.H.e.l.l.o.comma.space.w.o.r.l.d!.flush("\n")
 => 'Hello, world!'
 ```
 

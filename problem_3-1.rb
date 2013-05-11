@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 ### 次の１行で、'Hello, world!'が実行されるように、Okinawarbクラスを作ってください。
-# Okinawarb.new.H.e.l.l.o.dot.space.w.o.r.l.d!.send("\n")
+# Okinawarb.new.H.e.l.l.o.comma.space.w.o.r.l.d!.flush("\n")
 # => 'Hello, world!'
 
 class Okinawarb
@@ -14,6 +14,6 @@ end
 Okinawarb.new.Foobar "ほげ"
 
 ### ここから下は、コメントインorコメントアウトするだけ！
-# Okinawarb.new.H.e.l.l.o.comma.space.w.o.r.l.d!.send("\n")
+# Okinawarb.new.H.e.l.l.o.comma.space.w.o.r.l.d!.flush("\n")
 
 
