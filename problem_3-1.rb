@@ -6,36 +6,27 @@
 # => 'Hello, world!'
 
 class Okinawarb
-
-  WORD = {
-    "comma" => ",",
-    "space" => " ",
-  }
-
-  def initialize
-    @buf = ""
-  end
-
-  def Foobar (str)
-    puts "このクラスは #{self.class.name} です。引き通は #{str} です。"
-  end
-
-  def method_missing(name)
-    s = name.to_s
-    @buf << if WORD.keys.include? s
-              WORD[s]
-            else
-              s
-            end
+  def method_missing name
+    s = {comma:",",space:" ",period:"."}[name] || name
+    @text="#{@text}#{s}"
     self
   end
-
-  def flush(s)
-    print @buf + s
+  def flush s
+    print "#{@text}#{s}"
   end
 end
-
-Okinawarb.new.Foobar "ほげ"
-
-### ここから下は、コメントインorコメントアウトするだけ！
 Okinawarb.new.H.e.l.l.o.comma.space.w.o.r.l.d!.flush("\n")
+
+class Okinawarb2
+  (('a'..'z').to_a+('A'..'Z').to_a).each do |c|
+    define_method c, ->{print c;self}
+    define_method c+'!', ->{print c+'!';self}
+  end
+  [['comma',','],['space',' ']].each do |m, c|
+    define_method m,->{print c;self}
+  end
+  def flush str
+    print str
+  end
+end
+Okinawarb2.new.H.e.l.l.o.comma.space.w.o.r.l.d!.flush("\n")
